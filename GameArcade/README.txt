@@ -11,7 +11,6 @@
 JKD Version: 1.4
 -------------------
 
-
 -------------------
 Build instructions:
 -------------------
@@ -30,7 +29,15 @@ Output:
 -------
 The system will generate lage_map.txt and put in tin the "<project_folder>\out" directory
 
+-----------------------
+Application Properties:
+-----------------------
+<project_folder>\src\resources\terrainMap.properties
 
+--------
+Logging:
+--------
+Set DEBUGGER_ON=true
 
 ----------------------------------
 OO & Design & Design patterns used
