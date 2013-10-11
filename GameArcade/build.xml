@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+
+<project name="ArcaseGame" default="test" basedir="." >
+	
+	<property file="build.properties"/>
+	
+	<property name="src.dir" value="src"/>
+    <property name="classes.dir" value="bin"/>
+	<property name="resource.dir" value="${src.dir}/resources"/>
+	<property name="javadoc.dir" value="doc"/>
+	<property name="lib.dir" value="lib" />
+	<property name ="main-class" value="za.games.astar.GameArcade"/>
+	 <!-- import file="${resource.dir}/build-junit.xml" /-->
+
+
+	<!--property name="author" value="Carene Smith"/ -->
+	<path id="classpath">
+	   <fileset dir="${lib.dir}">
+	      <include name="**/*.jar"/>
+	   </fileset>
+	   <pathelement path="${classes.dir}"/>
+	   <pathelement path="${classes.dir}/resources" />
+	</path>
+	
+   <target name="info">
+      <echo>Using  ${ant.version} </echo>
+   		<echo>src dir is ...${src.dir} </echo>
+      	<echo>build dir is ... ${classes.dir} </echo>
+      	<echo>resource dir is ... ${resource.dir} </echo>
+   	
+   	  <echo>Start ArcadeGame build... written by author ${author}</echo>
+   </target>
+	<target name="deploy" depends="pacakge">
+		<echo>deploying ...</echo>
+	</target>
+	<target name="pacakge" depends="clean,build">
+		<echo>packiging ...</echo>
+	</target>
+	
+	<target name="clean" >
+		<echo>clean ...</echo>
+		<delete dir="${classes.dir}"/>
+	</target>
+	
+	<target name="propertyfiles" description="Application property files">
+		<copy todir="${classes.dir}" >
+		   <fileset dir="${src.dir}" includes="**/*.properties"/>
+		</copy>
+	</target>
+	
+	<target name="build" description="Compile project">
+	   <mkdir dir="${classes.dir}"/>
+	   <javac includeantruntime="false" destdir="${classes.dir}" source="1.4" target="1.4" debug="true"
+	             deprecation="false" optimize="false" failonerror="true">
+	      <src path="${src.dir}"/>
+	      <classpath refid="classpath"/>
+	   </javac>
+	</target>
+	
+	
+	<target name="test" depends="info, clean, propertyfiles,build">
+		<echo>testing ...</echo>
+		    <java fork="true" failonerror="yes" classname="za.games.astar.GameArcade">
+		    	        <classpath>
+		    	            <path refid="classpath" />
+		    	            <path location="${lib.dir}/${ant.project.name}.jar" />
+		    	        </classpath>
+		    	    
+		    	<arg line="${testfile}" />
+		    </java>
+	</target>
+	
+	<target name="testsuite" depends="build" description="Running Test Suite">
+		<echo>Running junit test suite...</echo>
+	     <delete dir="${junit.out.dir.xml}"/>
+	     <mkdir  dir="${junit.out.dir.xml}"/>
+	     <junit printsummary="yes" haltonfailure="no" fork="yes" maxmemory="512m">
+	       <classpath refid="classpath"/>
+	       <sysproperty key="ant.home" value="${ant.home}"/>
+	       <formatter type="xml"/>
+	       <batchtest fork="yes" todir="${junit.out.dir.xml}">
+	         <fileset dir="${classes.dir}" includes="**/AllTests.class"/>
+	       </batchtest>
+	    </junit>
+	  </target>
+	
+	<target name="generate-javadoc">
+	    <javadoc packagenames="za.games.astar.utils.*" sourcepath="${src.dir}" destdir="${javadoc.dir}" version="true" windowtitle="GameArcade">
+	      <doctitle><![CDATA[= GameArcade Application =]]></doctitle>
+	      <bottom>
+	         <![CDATA[Copyright © 2013. All Rights Reserved.]]>
+	      </bottom>
+	      <group title="util packages" packages="za.games.astar.utils.*"/>
+	      <group title="interfaces" packages="za.games.astar.impl.*"/>
+	      <group title="data packages"  packages="za.games.astar.pathfinder.*:za.games.astar.calculator.*"/>
+	    </javadoc>
+	    <echo message="java doc has been generated!" />
+	</target>
+	
+	
+	
+	
+</project>
