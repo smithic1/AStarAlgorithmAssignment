@@ -112,9 +112,10 @@ public class TerrainMap {
 						this.goalNodeX = x;
 						this.goalNodeY = y;
 					}	
+					
 	                
 		        } catch (Exception e) {
-		        	//logger.debug("createMap Error:" + e.getMessage());
+		        	e.printStackTrace();
 		        }
 
 		        ((ArrayList) nodeMapArrList.get(x)).add(node);

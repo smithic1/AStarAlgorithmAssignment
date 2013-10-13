@@ -1,0 +1,203 @@
+[2013-10-13 14:59:22,841]DEBUG   129[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =8, a = 1,fScore = 189: prevF = 0
+[2013-10-13 14:59:22,841]DEBUG   129[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =8, a = 3,fScore = 188: prevF = 189
+[2013-10-13 14:59:22,841]DEBUG   129[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =8, a = 7,fScore = 191: prevF = 188
+[2013-10-13 14:59:22,841]DEBUG   129[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Best choice =  bestF = 188 -  x = 32, y = 46:Symbol = *:fScore = 188distanceFromStart = 168
+[2013-10-13 14:59:22,841]DEBUG   129[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  ------------
+[2013-10-13 14:59:22,842]DEBUG   130[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  costSoFar = 168 ,x:32:y46
+[2013-10-13 14:59:22,842]DEBUG   130[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =8, a = 1,fScore = 192: prevF = 0
+[2013-10-13 14:59:22,842]DEBUG   130[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =8, a = 3,fScore = 191: prevF = 192
+[2013-10-13 14:59:22,842]DEBUG   130[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =8, a = 6,fScore = 191: prevF = 191
+[2013-10-13 14:59:22,842]DEBUG   130[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Choose between 
+[2013-10-13 14:59:22,842]DEBUG   130[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  Current = x = 31, y = 46:Symbol = *:fScore = 0distanceFromStart = 0
+[2013-10-13 14:59:22,842]DEBUG   130[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Prevx = 33, y = 45:Symbol = ^:fScore = 0distanceFromStart = 0
+[2013-10-13 14:59:22,842]DEBUG   130[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - winner is 
+[2013-10-13 14:59:22,842]DEBUG   130[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - x = 31, y = 46:Symbol = *:fScore = 0distanceFromStart = 0
+[2013-10-13 14:59:22,842]DEBUG   130[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =8, a = 7,fScore = 192: prevF = 191
+[2013-10-13 14:59:22,842]DEBUG   130[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Best choice =  bestF = 191 -  x = 31, y = 46:Symbol = *:fScore = 191distanceFromStart = 170
+[2013-10-13 14:59:22,843]DEBUG   131[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  ------------
+[2013-10-13 14:59:22,843]DEBUG   131[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  costSoFar = 170 ,x:31:y46
+[2013-10-13 14:59:22,843]DEBUG   131[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =7, a = 1,fScore = 194: prevF = 0
+[2013-10-13 14:59:22,843]DEBUG   131[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =7, a = 3,fScore = 194: prevF = 194
+[2013-10-13 14:59:22,843]DEBUG   131[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Choose between 
+[2013-10-13 14:59:22,843]DEBUG   131[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  Current = x = 32, y = 45:Symbol = ^:fScore = 0distanceFromStart = 0
+[2013-10-13 14:59:22,843]DEBUG   131[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Prevx = 31, y = 45:Symbol = *:fScore = 0distanceFromStart = 0
+[2013-10-13 14:59:22,843]DEBUG   131[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - winner is 
+[2013-10-13 14:59:22,843]DEBUG   131[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - x = 32, y = 45:Symbol = ^:fScore = 0distanceFromStart = 0
+[2013-10-13 14:59:22,843]DEBUG   131[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =7, a = 6,fScore = 195: prevF = 194
+[2013-10-13 14:59:22,843]DEBUG   131[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Best choice =  bestF = 194 -  x = 32, y = 45:Symbol = ^:fScore = 194distanceFromStart = 173
+[2013-10-13 14:59:22,843]DEBUG   131[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  ------------
+[2013-10-13 14:59:22,844]DEBUG   132[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  costSoFar = 173 ,x:32:y45
+[2013-10-13 14:59:22,844]DEBUG   132[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =7, a = 1,fScore = 196: prevF = 0
+[2013-10-13 14:59:22,844]DEBUG   132[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =7, a = 2,fScore = 196: prevF = 196
+[2013-10-13 14:59:22,844]DEBUG   132[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Choose between 
+[2013-10-13 14:59:22,844]DEBUG   132[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  Current = x = 33, y = 45:Symbol = ^:fScore = 0distanceFromStart = 0
+[2013-10-13 14:59:22,844]DEBUG   132[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Prevx = 32, y = 44:Symbol = .:fScore = 0distanceFromStart = 0
+[2013-10-13 14:59:22,844]DEBUG   132[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - winner is 
+[2013-10-13 14:59:22,844]DEBUG   132[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - x = 33, y = 45:Symbol = ^:fScore = 0distanceFromStart = 0
+[2013-10-13 14:59:22,844]DEBUG   132[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =7, a = 3,fScore = 196: prevF = 196
+[2013-10-13 14:59:22,844]DEBUG   132[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Choose between 
+[2013-10-13 14:59:22,844]DEBUG   132[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  Current = x = 33, y = 44:Symbol = *:fScore = 0distanceFromStart = 0
+[2013-10-13 14:59:22,845]DEBUG   133[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Prevx = 32, y = 44:Symbol = .:fScore = 0distanceFromStart = 0
+[2013-10-13 14:59:22,845]DEBUG   133[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - winner is 
+[2013-10-13 14:59:22,845]DEBUG   133[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - x = 33, y = 44:Symbol = *:fScore = 0distanceFromStart = 0
+[2013-10-13 14:59:22,845]DEBUG   133[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =7, a = 6,fScore = 197: prevF = 196
+[2013-10-13 14:59:22,845]DEBUG   133[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Best choice =  bestF = 196 -  x = 33, y = 44:Symbol = *:fScore = 196distanceFromStart = 175
+[2013-10-13 14:59:22,845]DEBUG   133[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  ------------
+[2013-10-13 14:59:22,845]DEBUG   133[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  costSoFar = 175 ,x:33:y44
+[2013-10-13 14:59:22,846]DEBUG   134[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =8, a = 1,fScore = 199: prevF = 0
+[2013-10-13 14:59:22,846]DEBUG   134[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =8, a = 2,fScore = 197: prevF = 199
+[2013-10-13 14:59:22,846]DEBUG   134[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =8, a = 3,fScore = 198: prevF = 197
+[2013-10-13 14:59:22,846]DEBUG   134[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =8, a = 4,fScore = 198: prevF = 197
+[2013-10-13 14:59:22,846]DEBUG   134[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =8, a = 6,fScore = 198: prevF = 197
+[2013-10-13 14:59:22,846]DEBUG   134[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =8, a = 7,fScore = 201: prevF = 197
+[2013-10-13 14:59:22,846]DEBUG   134[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Best choice =  bestF = 197 -  x = 34, y = 44:Symbol = *:fScore = 197distanceFromStart = 177
+[2013-10-13 14:59:22,846]DEBUG   134[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  ------------
+[2013-10-13 14:59:22,846]DEBUG   134[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  costSoFar = 177 ,x:34:y44
+[2013-10-13 14:59:22,846]DEBUG   134[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =8, a = 1,fScore = 200: prevF = 0
+[2013-10-13 14:59:22,846]DEBUG   134[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =8, a = 2,fScore = 198: prevF = 200
+[2013-10-13 14:59:22,847]DEBUG   135[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =8, a = 3,fScore = 199: prevF = 198
+[2013-10-13 14:59:22,847]DEBUG   135[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =8, a = 5,fScore = 200: prevF = 198
+[2013-10-13 14:59:22,847]DEBUG   135[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =8, a = 7,fScore = 201: prevF = 198
+[2013-10-13 14:59:22,847]DEBUG   135[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Best choice =  bestF = 198 -  x = 35, y = 44:Symbol = *:fScore = 198distanceFromStart = 179
+[2013-10-13 14:59:22,847]DEBUG   135[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  ------------
+[2013-10-13 14:59:22,847]DEBUG   135[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  costSoFar = 179 ,x:35:y44
+[2013-10-13 14:59:22,847]DEBUG   135[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =5, a = 0,fScore = 201: prevF = 0
+[2013-10-13 14:59:22,847]DEBUG   135[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =5, a = 4,fScore = 202: prevF = 201
+[2013-10-13 14:59:22,847]DEBUG   135[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Best choice =  bestF = 201 -  x = 35, y = 43:Symbol = *:fScore = 201distanceFromStart = 181
+[2013-10-13 14:59:22,847]DEBUG   135[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  ------------
+[2013-10-13 14:59:22,847]DEBUG   135[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  costSoFar = 181 ,x:35:y43
+[2013-10-13 14:59:22,848]DEBUG   136[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =6, a = 0,fScore = 203: prevF = 0
+[2013-10-13 14:59:22,848]DEBUG   136[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =6, a = 4,fScore = 204: prevF = 203
+[2013-10-13 14:59:22,848]DEBUG   136[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =6, a = 5,fScore = 205: prevF = 203
+[2013-10-13 14:59:22,848]DEBUG   136[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Best choice =  bestF = 203 -  x = 35, y = 42:Symbol = .:fScore = 203distanceFromStart = 182
+[2013-10-13 14:59:22,848]DEBUG   136[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  ------------
+[2013-10-13 14:59:22,848]DEBUG   136[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  costSoFar = 182 ,x:35:y42
+[2013-10-13 14:59:22,848]DEBUG   136[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =7, a = 2,fScore = 204: prevF = 0
+[2013-10-13 14:59:22,848]DEBUG   136[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =7, a = 4,fScore = 205: prevF = 204
+[2013-10-13 14:59:22,848]DEBUG   136[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =7, a = 5,fScore = 206: prevF = 204
+[2013-10-13 14:59:22,848]DEBUG   136[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =7, a = 6,fScore = 206: prevF = 204
+[2013-10-13 14:59:22,848]DEBUG   136[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Best choice =  bestF = 204 -  x = 36, y = 41:Symbol = .:fScore = 204distanceFromStart = 183
+[2013-10-13 14:59:22,849]DEBUG   137[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  ------------
+[2013-10-13 14:59:22,849]DEBUG   137[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  costSoFar = 183 ,x:36:y41
+[2013-10-13 14:59:22,849]DEBUG   137[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =5, a = 0,fScore = 208: prevF = 0
+[2013-10-13 14:59:22,849]DEBUG   137[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =5, a = 1,fScore = 204: prevF = 208
+[2013-10-13 14:59:22,849]DEBUG   137[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Best choice =  bestF = 204 -  x = 37, y = 41:Symbol = .:fScore = 204distanceFromStart = 184
+[2013-10-13 14:59:22,849]DEBUG   137[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  ------------
+[2013-10-13 14:59:22,849]DEBUG   137[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  costSoFar = 184 ,x:37:y41
+[2013-10-13 14:59:22,849]DEBUG   137[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =4, a = 0,fScore = 206: prevF = 0
+[2013-10-13 14:59:22,849]DEBUG   137[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =4, a = 3,fScore = 209: prevF = 206
+[2013-10-13 14:59:22,849]DEBUG   137[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Best choice =  bestF = 206 -  x = 38, y = 40:Symbol = *:fScore = 206distanceFromStart = 186
+[2013-10-13 14:59:22,849]DEBUG   137[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  ------------
+[2013-10-13 14:59:22,849]DEBUG   137[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  costSoFar = 186 ,x:38:y40
+[2013-10-13 14:59:22,850]DEBUG   138[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =3, a = 0,fScore = 209: prevF = 0
+[2013-10-13 14:59:22,850]DEBUG   138[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =3, a = 2,fScore = 209: prevF = 209
+[2013-10-13 14:59:22,850]DEBUG   138[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Choose between 
+[2013-10-13 14:59:22,850]DEBUG   138[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  Current = x = 37, y = 39:Symbol = .:fScore = 0distanceFromStart = 0
+[2013-10-13 14:59:22,850]DEBUG   138[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Prevx = 38, y = 39:Symbol = *:fScore = 0distanceFromStart = 0
+[2013-10-13 14:59:22,850]DEBUG   138[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - winner is 
+[2013-10-13 14:59:22,850]DEBUG   138[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - x = 38, y = 39:Symbol = *:fScore = 0distanceFromStart = 0
+[2013-10-13 14:59:22,850]DEBUG   138[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Best choice =  bestF = 209 -  x = 38, y = 39:Symbol = *:fScore = 209distanceFromStart = 188
+[2013-10-13 14:59:22,850]DEBUG   138[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  ------------
+[2013-10-13 14:59:22,850]DEBUG   138[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  costSoFar = 188 ,x:38:y39
+[2013-10-13 14:59:22,850]DEBUG   138[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =5, a = 0,fScore = 211: prevF = 0
+[2013-10-13 14:59:22,851]DEBUG   139[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =5, a = 1,fScore = 210: prevF = 211
+[2013-10-13 14:59:22,851]DEBUG   139[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =5, a = 3,fScore = 211: prevF = 210
+[2013-10-13 14:59:22,851]DEBUG   139[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =5, a = 4,fScore = 214: prevF = 210
+[2013-10-13 14:59:22,851]DEBUG   139[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Best choice =  bestF = 210 -  x = 39, y = 38:Symbol = .:fScore = 210distanceFromStart = 189
+[2013-10-13 14:59:22,851]DEBUG   139[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  ------------
+[2013-10-13 14:59:22,851]DEBUG   139[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  costSoFar = 189 ,x:39:y38
+[2013-10-13 14:59:22,851]DEBUG   139[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =7, a = 0,fScore = 211: prevF = 0
+[2013-10-13 14:59:22,851]DEBUG   139[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =7, a = 1,fScore = 214: prevF = 211
+[2013-10-13 14:59:22,851]DEBUG   139[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =7, a = 2,fScore = 211: prevF = 211
+[2013-10-13 14:59:22,851]DEBUG   139[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Choose between 
+[2013-10-13 14:59:22,851]DEBUG   139[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  Current = x = 40, y = 38:Symbol = *:fScore = 0distanceFromStart = 0
+[2013-10-13 14:59:22,852]DEBUG   140[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Prevx = 40, y = 39:Symbol = ^:fScore = 0distanceFromStart = 0
+[2013-10-13 14:59:22,852]DEBUG   140[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - winner is 
+[2013-10-13 14:59:22,852]DEBUG   140[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - x = 40, y = 39:Symbol = ^:fScore = 0distanceFromStart = 0
+[2013-10-13 14:59:22,852]DEBUG   140[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =7, a = 3,fScore = 212: prevF = 211
+[2013-10-13 14:59:22,852]DEBUG   140[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =7, a = 5,fScore = 212: prevF = 211
+[2013-10-13 14:59:22,852]DEBUG   140[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =7, a = 6,fScore = 214: prevF = 211
+[2013-10-13 14:59:22,852]DEBUG   140[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Best choice =  bestF = 211 -  x = 40, y = 39:Symbol = ^:fScore = 211distanceFromStart = 192
+[2013-10-13 14:59:22,852]DEBUG   140[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  ------------
+[2013-10-13 14:59:22,852]DEBUG   140[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  costSoFar = 192 ,x:40:y39
+[2013-10-13 14:59:22,852]DEBUG   140[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =5, a = 0,fScore = 211: prevF = 0
+[2013-10-13 14:59:22,852]DEBUG   140[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =5, a = 1,fScore = 214: prevF = 211
+[2013-10-13 14:59:22,852]DEBUG   140[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =5, a = 2,fScore = 212: prevF = 211
+[2013-10-13 14:59:22,853]DEBUG   141[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =5, a = 3,fScore = 212: prevF = 211
+[2013-10-13 14:59:22,853]DEBUG   141[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Best choice =  bestF = 211 -  x = 41, y = 40:Symbol = *:fScore = 211distanceFromStart = 194
+[2013-10-13 14:59:22,853]DEBUG   141[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  ------------
+[2013-10-13 14:59:22,853]DEBUG   141[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  costSoFar = 194 ,x:41:y40
+[2013-10-13 14:59:22,853]DEBUG   141[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =6, a = 0,fScore = 212: prevF = 0
+[2013-10-13 14:59:22,853]DEBUG   141[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =6, a = 1,fScore = 211: prevF = 212
+[2013-10-13 14:59:22,853]DEBUG   141[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =6, a = 2,fScore = 212: prevF = 211
+[2013-10-13 14:59:22,853]DEBUG   141[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =6, a = 3,fScore = 214: prevF = 211
+[2013-10-13 14:59:22,853]DEBUG   141[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =6, a = 4,fScore = 214: prevF = 211
+[2013-10-13 14:59:22,853]DEBUG   141[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Best choice =  bestF = 211 -  x = 42, y = 40:Symbol = .:fScore = 211distanceFromStart = 195
+[2013-10-13 14:59:22,853]DEBUG   141[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  ------------
+[2013-10-13 14:59:22,854]DEBUG   142[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  costSoFar = 195 ,x:42:y40
+[2013-10-13 14:59:22,854]DEBUG   142[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =6, a = 0,fScore = 210: prevF = 0
+[2013-10-13 14:59:22,854]DEBUG   142[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =6, a = 1,fScore = 211: prevF = 210
+[2013-10-13 14:59:22,854]DEBUG   142[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =6, a = 2,fScore = 212: prevF = 210
+[2013-10-13 14:59:22,854]DEBUG   142[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =6, a = 3,fScore = 213: prevF = 210
+[2013-10-13 14:59:22,854]DEBUG   142[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =6, a = 4,fScore = 213: prevF = 210
+[2013-10-13 14:59:22,854]DEBUG   142[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Best choice =  bestF = 210 -  x = 43, y = 41:Symbol = .:fScore = 210distanceFromStart = 196
+[2013-10-13 14:59:22,854]DEBUG   142[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  ------------
+[2013-10-13 14:59:22,854]DEBUG   142[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  costSoFar = 196 ,x:43:y41
+[2013-10-13 14:59:22,854]DEBUG   142[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =8, a = 0,fScore = 210: prevF = 0
+[2013-10-13 14:59:22,854]DEBUG   142[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =8, a = 1,fScore = 212: prevF = 210
+[2013-10-13 14:59:22,855]DEBUG   143[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =8, a = 2,fScore = 211: prevF = 210
+[2013-10-13 14:59:22,855]DEBUG   143[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =8, a = 3,fScore = 211: prevF = 210
+[2013-10-13 14:59:22,855]DEBUG   143[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =8, a = 4,fScore = 211: prevF = 210
+[2013-10-13 14:59:22,855]DEBUG   143[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =8, a = 5,fScore = 212: prevF = 210
+[2013-10-13 14:59:22,855]DEBUG   143[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =8, a = 6,fScore = 214: prevF = 210
+[2013-10-13 14:59:22,855]DEBUG   143[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Best choice =  bestF = 210 -  x = 44, y = 42:Symbol = *:fScore = 210distanceFromStart = 198
+[2013-10-13 14:59:22,855]DEBUG   143[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  ------------
+[2013-10-13 14:59:22,855]DEBUG   143[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  costSoFar = 198 ,x:44:y42
+[2013-10-13 14:59:22,855]DEBUG   143[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =6, a = 0,fScore = 211: prevF = 0
+[2013-10-13 14:59:22,855]DEBUG   143[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =6, a = 1,fScore = 213: prevF = 211
+[2013-10-13 14:59:22,855]DEBUG   143[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =6, a = 2,fScore = 213: prevF = 211
+[2013-10-13 14:59:22,855]DEBUG   143[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =6, a = 3,fScore = 212: prevF = 211
+[2013-10-13 14:59:22,856]DEBUG   144[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =6, a = 4,fScore = 213: prevF = 211
+[2013-10-13 14:59:22,856]DEBUG   144[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Best choice =  bestF = 211 -  x = 45, y = 43:Symbol = ^:fScore = 211distanceFromStart = 201
+[2013-10-13 14:59:22,856]DEBUG   144[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  ------------
+[2013-10-13 14:59:22,856]DEBUG   144[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  costSoFar = 201 ,x:45:y43
+[2013-10-13 14:59:22,856]DEBUG   144[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =5, a = 0,fScore = 211: prevF = 0
+[2013-10-13 14:59:22,856]DEBUG   144[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =5, a = 1,fScore = 213: prevF = 211
+[2013-10-13 14:59:22,856]DEBUG   144[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =5, a = 2,fScore = 212: prevF = 211
+[2013-10-13 14:59:22,856]DEBUG   144[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =5, a = 3,fScore = 215: prevF = 211
+[2013-10-13 14:59:22,856]DEBUG   144[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Best choice =  bestF = 211 -  x = 46, y = 44:Symbol = *:fScore = 211distanceFromStart = 203
+[2013-10-13 14:59:22,856]DEBUG   144[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  ------------
+[2013-10-13 14:59:22,856]DEBUG   144[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  costSoFar = 203 ,x:46:y44
+[2013-10-13 14:59:22,857]DEBUG   145[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =7, a = 0,fScore = 210: prevF = 0
+[2013-10-13 14:59:22,857]DEBUG   145[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =7, a = 1,fScore = 215: prevF = 210
+[2013-10-13 14:59:22,857]DEBUG   145[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =7, a = 2,fScore = 213: prevF = 210
+[2013-10-13 14:59:22,857]DEBUG   145[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =7, a = 3,fScore = 213: prevF = 210
+[2013-10-13 14:59:22,857]DEBUG   145[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =7, a = 4,fScore = 212: prevF = 210
+[2013-10-13 14:59:22,857]DEBUG   145[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =7, a = 5,fScore = 214: prevF = 210
+[2013-10-13 14:59:22,857]DEBUG   145[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Best choice =  bestF = 210 -  x = 47, y = 45:Symbol = .:fScore = 210distanceFromStart = 204
+[2013-10-13 14:59:22,857]DEBUG   145[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  ------------
+[2013-10-13 14:59:22,857]DEBUG   145[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  costSoFar = 204 ,x:47:y45
+[2013-10-13 14:59:22,857]DEBUG   145[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =6, a = 0,fScore = 209: prevF = 0
+[2013-10-13 14:59:22,857]DEBUG   145[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =6, a = 1,fScore = 214: prevF = 209
+[2013-10-13 14:59:22,858]DEBUG   146[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =6, a = 2,fScore = 212: prevF = 209
+[2013-10-13 14:59:22,858]DEBUG   146[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =6, a = 3,fScore = 212: prevF = 209
+[2013-10-13 14:59:22,858]DEBUG   146[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =6, a = 4,fScore = 213: prevF = 209
+[2013-10-13 14:59:22,858]DEBUG   146[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Best choice =  bestF = 209 -  x = 48, y = 46:Symbol = .:fScore = 209distanceFromStart = 205
+[2013-10-13 14:59:22,858]DEBUG   146[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  ------------
+[2013-10-13 14:59:22,858]DEBUG   146[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  costSoFar = 205 ,x:48:y46
+[2013-10-13 14:59:22,858]DEBUG   146[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =3, a = 0,fScore = 210: prevF = 0
+[2013-10-13 14:59:22,858]DEBUG   146[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =3, a = 1,fScore = 212: prevF = 210
+[2013-10-13 14:59:22,859]DEBUG   147[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Best choice =  bestF = 210 -  x = 49, y = 47:Symbol = ^:fScore = 210distanceFromStart = 208
+[2013-10-13 14:59:22,859]DEBUG   147[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  ------------
+[2013-10-13 14:59:22,859]DEBUG   147[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  costSoFar = 208 ,x:49:y47
+[2013-10-13 14:59:22,859]DEBUG   147[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =3, a = 0,fScore = 210: prevF = 0
+[2013-10-13 14:59:22,859]DEBUG   147[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =3, a = 1,fScore = 213: prevF = 210
+[2013-10-13 14:59:22,859]DEBUG   147[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Best choice =  bestF = 210 -  x = 49, y = 48:Symbol = .:fScore = 210distanceFromStart = 209
+[2013-10-13 14:59:22,859]DEBUG   147[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  ------------
+[2013-10-13 14:59:22,859]DEBUG   147[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  costSoFar = 209 ,x:49:y48
+[2013-10-13 14:59:22,859]DEBUG   147[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =4, a = 1,fScore = 210: prevF = 0
+[2013-10-13 14:59:22,859]DEBUG   147[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =4, a = 2,fScore = 213: prevF = 210
+[2013-10-13 14:59:22,859]DEBUG   147[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - neighbour.size()  =4, a = 3,fScore = 214: prevF = 210
+[2013-10-13 14:59:22,859]DEBUG   147[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - Best choice =  bestF = 210 -  x = 49, y = 49:Symbol = X:fScore = 210distanceFromStart = 210
+[2013-10-13 14:59:22,860]DEBUG   148[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) -  ------------- print TerrainMap Result ------
+[2013-10-13 14:59:22,866]DEBUG   154[main] - za.games.astar.utils.LogUtil.debug(LogUtil.java:43) - ********** DONE PLAYING, THANK YOU *********

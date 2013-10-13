@@ -71,10 +71,16 @@ public class GameArcade {
 	
 	public void clean() throws IOException{
 		try{
-			terrainBufferReader.close();
+			//cleaning code
 		}
 		finally{
-			terrainBufferReader.close();
+			try {
+				if (terrainBufferReader != null)
+					terrainBufferReader.close();
+			} catch (IOException ex) {
+				ex.printStackTrace();
+			}
+			
 		}
 	}
 	private void readInputFile(String fileName) throws IOException{

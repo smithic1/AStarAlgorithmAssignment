@@ -8,10 +8,6 @@
 		
 ========================================================================
 -------------------
-JKD Version: 1.4
--------------------
-
--------------------
 Build instructions:
 -------------------
 Copy files into a project folder
@@ -24,20 +20,6 @@ ant testsuite: This will run the TestSuite for the classes in the application
 
 ** Note the default target test.
 
--------
-Output:
--------
-The system will generate lage_map.txt and put in tin the "<project_folder>\out" directory
-
------------------------
-Application Properties:
------------------------
-<project_folder>\src\resources\terrainMap.properties
-
---------
-Logging:
---------
-Set DEBUGGER_ON=true
 
 ----------------------------------
 OO & Design & Design patterns used

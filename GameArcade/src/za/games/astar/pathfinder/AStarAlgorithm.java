@@ -129,6 +129,7 @@ public class AStarAlgorithm {
 		bestChoiceNode.setParentNode(current);
 		bestChoiceNode.setDistanceFromStart(costSoFar + bestChoiceNode.getMoveCost());
 		bestChoiceNode.setFScore(costSoFar + bestChoiceNode.getMoveCost() + mDistCal.getEstDistanceToGoal(bestChoiceNode.getPoint(),terrainMap.getGoalPoint() )); 
+		bestChoiceNode.setManhattenDistanceToGoal( mDistCal.getEstDistanceToGoal(bestChoiceNode.getPoint(),terrainMap.getGoalPoint() ));
 		LogUtil.debug("Best choice =  bestF = " + bestF + " -  " + bestChoiceNode.toString() );		
 		return bestChoiceNode;
 		
@@ -176,8 +177,13 @@ public class AStarAlgorithm {
          ArrayList path = new ArrayList();
 
          while(!(node.getParentNode() == null)) {
+        	 
                  path.add(0,node.getPoint());
-                 node = node.getParentNode();
+                 if(node.getParentNode().getManhattenDistanceToGoal() == node.getManhattenDistanceToGoal()){
+            		 node = node.getParentNode().getParentNode();
+            	 }else{
+            		 node = node.getParentNode();
+         		}
          }
          
          //add start

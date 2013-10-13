@@ -98,6 +98,13 @@ public class Node {
 				 adjNodeList.add(currentNode);
 		 }
 		 
+		 //go to row above
+		 if(this.yCoordinate > 0){
+			 currentNode = terrMap.getNode(this.xCoordinate, this.yCoordinate-1); 
+			 if(!currentNode.getIsRestricted())
+				 adjNodeList.add(currentNode);
+		 }
+		 
 		 //horizontal in currant row - move to the right
 		 if(this.xCoordinate < xBorder){
 			 currentNode = terrMap.getNode(this.xCoordinate+1, this.yCoordinate); 
@@ -112,12 +119,7 @@ public class Node {
 				 adjNodeList.add(currentNode);
 		 }
 		
-		 //go to row above
-		 if(this.yCoordinate > 0){
-			 currentNode = terrMap.getNode(this.xCoordinate, this.yCoordinate-1); 
-			 if(!currentNode.getIsRestricted())
-				 adjNodeList.add(currentNode);
-		 }
+		
 		 
 		 
 		//go to row below
